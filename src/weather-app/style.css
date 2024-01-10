@@ -1,0 +1,72 @@
+body {
+    box-sizing: border-box;
+}
+
+.content {
+    background-color: #FF9BD2;
+    border: 1px #D63484;
+    width: 20%;
+    height: 500px;
+    padding: 1%;
+    margin-left: 50%;
+    margin-top: 5%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    box-shadow: gray 2px 2px;
+}
+
+.title {
+    text-align: center;
+    color: #402B3A;
+}
+
+div {
+    text-align: center;
+}
+
+.search-box {
+    margin: 8% 0 4% 0;
+    height: 8%;
+}
+
+.search-box input {
+    height: 100%;
+    width: 80%;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    outline: none;
+    border: none;
+}
+
+.search-btn {
+    margin: 7% 0 0 0;
+    padding: 3% 12%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px;
+    font-size: 1em;
+}
+
+.temperature {
+    background-color: rgba(248, 244, 236, .3);
+    width: 60%;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border-radius: 10px;
+    margin-top: 3%;
+    box-shadow: #FF4B91 2px 2px;
+}
+
+.temperature h1 {
+    color: white;
+    text-shadow: black 2px 2px;
+    font-size: 4em;
+    padding-bottom: 5%;
+}
+
+.weather h3 {
+    color: white;
+    text-shadow: black 2px 2px;
+    font-size: 2em;
+}

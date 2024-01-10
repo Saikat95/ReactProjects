@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+//import App from './App';
+//import App from './count-app/App';
+//import App from './calculator-app/App'
+//import App from './quote-gen-app/App'
+//import App from './weather-app/App'
+import App from './image-gallery-app/App'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

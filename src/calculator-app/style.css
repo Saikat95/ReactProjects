@@ -1,0 +1,87 @@
+body {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-left: 50%;
+    transform: translateX(-18%);
+}
+
+.container {
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #F0F0F0;
+    padding: .5%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.screen {
+    width: auto;
+    height: 20%;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 5%;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.screen .screenResult {
+    width: 95%;
+    height: auto;
+    font-size: 2em;
+    margin-bottom: 5%;
+    border: none;
+    outline: none;
+}
+
+.button-set {
+    width: 100%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.numpad {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.numpad .Button {
+    width: 100%;
+    height: 100%;
+    font-size: 1.2em;
+    margin: .5%;
+}
+
+.action {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.action .Button {
+    width: 100%;
+    height: 100%;
+    font-size: 1.2em;
+    margin: .5%;
+}
+
+.result {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.result .Button {
+    width: 100%;
+    height: 100%;
+    font-size: 1.2em;
+    margin: .5%;
+}
