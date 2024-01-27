@@ -6,7 +6,7 @@ import "./style.css"
 
 export default function App() {
     const API = {
-        key: "772ef3b586ced5d0c2f58f77a0345073",
+        key: "",
         url: 'https://api.openweathermap.org/data/2.5/weather?q='
     }
 
