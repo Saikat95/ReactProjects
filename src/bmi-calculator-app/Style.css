@@ -1,0 +1,48 @@
+body {
+    box-sizing: border-box;
+}
+
+.content {
+    width: 40%;
+    margin-left: 50%;
+    margin-top: 4%;
+    transform: translateX(-50%);
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    padding: 4%;
+    background-color: antiquewhite;
+}
+
+.title {
+    margin: 0;
+    margin-bottom: 10%;
+}
+
+.value-div {
+    margin: 4%;
+}
+
+.value-div label {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-right: 6%;
+}
+
+.value-div .value-box {
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    padding: 0 5%;
+    font-size: 1.2em;
+}
+
+.cal-type input {
+    width: 4%;
+}
+
+.cal-type label {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-right: 6%;
+}
