@@ -1,0 +1,54 @@
+body {
+    box-sizing: border-box;
+    color: white;
+}
+
+.container {
+    background-color: black;
+    width: 40%;
+    margin-left: 50%;
+    margin-top: 8%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 1.20%;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.container h1 {
+    font-size: 3em;
+}
+
+.time-container {
+    padding: 10%;
+    padding-top: 2%;
+}
+
+.time-container p {
+    display: inline;
+    background-color: antiquewhite;
+    font-size: 5em;
+    padding: 1.2%;
+    color: black;
+    border-radius: 20px;
+}
+
+.button-grp button {
+    font-size: 2em;
+    margin: 0 4%;
+    border-radius: 20px;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.button-grp .start-btn {
+    background-color: greenyellow;
+}
+
+.button-grp .stop-btn {
+    background-color: red;
+}
+
+.button-grp .reset-btn {
+    background-color: yellow;
+}
