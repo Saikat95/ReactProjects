@@ -8,7 +8,8 @@ import reportWebVitals from './reportWebVitals';
 //import App from './quote-gen-app/App'
 //import App from './weather-app/App'
 //import App from './image-gallery-app/App'
-import App from './bmi-calculator-app/App'
+//import App from './bmi-calculator-app/App'
+import App from './stopwatch-app/App'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
