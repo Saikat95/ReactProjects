@@ -1,0 +1,32 @@
+body {
+    box-sizing: border-box;
+}
+
+.comment input {
+    padding: .6%;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.comment > button {
+    padding: .6%;
+    border-radius: 10px;
+    margin-left: .3%;
+    background-color: aqua;
+    color: white;
+}
+
+.comment span {
+    background-color: #d1d8e0;
+}
+
+.reply {
+    margin-top: 10px;
+}
+
+.reply button {
+    border-radius: 8px;
+    margin-left: .3%;
+    background-color: cadetblue;
+    color: white;
+}
